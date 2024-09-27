@@ -14,17 +14,19 @@ This project is a web application that performs sentiment analysis using a pre-t
 - **Analyze Comments**: Analyzes the sentiment of the fetched comments using a pre-trained BERT model.
 - **API Endpoints**: Provides endpoints to fetch and analyze comments.
 
-Navigate to the `server` directory:
+1. Navigate to the `server` directory:
 
 ```sh {"id":"01J8SFMMBZNYDKC5F8F18WJ7T8"}
 cd server
 ```
 
+2. Install the dependencies:
+
 ```sh {"id":"01J8SFKJ9NW9GP6Q0R79W25NGC"}
 pip install -r requirements.txt
 ```
 
-Run the Flask server:
+3. Run the Flask server:
 
 ```sh {"id":"01J8SFKJ9NW9GP6Q0R7BC9CTSW"}
 python server.py
