@@ -87,7 +87,7 @@ pip uninstall torch
 
 If you want to change the Facebook page or post being analyzed, you can update the access token, post ID, and page ID in the `sentiment_analyzer_fb.py` file.
 
-1. __Access Token__: Retrieve a new access token from the [Facebook Developer Portal](https://developers.facebook.com/). Make sure to set the `page_read_engagement` permission for the page access token.
+1. __Access Token__: Retrieve a new access token from the [Facebook Developer Portal](https://developers.facebook.com/). Make sure to set the `page_read_engagement` permission for the page access token. Generate a new token each time you update the permissions.
 2. __Post ID and Page ID__: Update the `POST_ID` and `PAGE_ID` variables in the `sentiment_analyzer_fb.py` file with the new values. Which can be obtained with the following link format:
 
 ```ini {"id":"01J8SGPXV44004QYGHVFD2QWF8"}
