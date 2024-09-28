@@ -1,4 +1,4 @@
-# Social Media Sentiment Analyzer
+# Facebook Sentiment Analyzer
 
 This project is a web application that performs sentiment analysis using a pre-trained RoBERTa model. The frontend is built with React and Vite, while the backend is powered by Flask. The application allows users to connect their page and receive sentiment analysis results indicating whether their post is received negatively, neutrally, or positively.
 
